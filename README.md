@@ -4,6 +4,8 @@ A 2D top-down naval shooter built with **React**, **TypeScript (strict)** and **
 
 Ranking and match history use a REST API mocked with **MSW** (in development, tests **and** the deployed build), consumed through **Axios** and **TanStack Query**. End-to-end and visual tests use **Playwright**.
 
+**Play it: https://game-developer-challenge-rouge.vercel.app/** (Vercel; the mocked ranking/history API runs in the deployed build)
+
 - Challenge statement: [docs/CHALLENGE.md](docs/CHALLENGE.md)
 - Architecture and decisions: [ARCHITECTURE.md](ARCHITECTURE.md)
 - Performance report: [reports/PERFORMANCE.md](reports/PERFORMANCE.md)
