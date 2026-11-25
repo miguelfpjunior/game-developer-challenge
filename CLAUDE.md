@@ -6,6 +6,12 @@ Guidance for Claude Code in this repo.
 
 **Pirate Battle** — 2D top-down naval shooter. Hiring challenge (Jungle Gaming). Full spec in [docs/CHALLENGE.md](docs/CHALLENGE.md) (Portuguese) — the source of truth; re-read the relevant section before changing a feature. [README.md](README.md) is the solution README; [ARCHITECTURE.md](ARCHITECTURE.md) explains design decisions — keep both in sync with code.
 
+## Deploy
+
+- Live: https://game-developer-challenge-rouge.vercel.app/ (Vercel, Vite preset, build `npm run build`, output `dist`).
+- Repo: fork `miguelfpjunior/game-developer-challenge` (git remote `fork`; `origin` is the upstream challenge repo — never push there). Every push to the fork's `main` redeploys.
+- MSW runs in production, so ranking/history work on the live URL; test hooks (`?testClock=1`, `window.__mock`) work there too.
+
 ## Commands
 
 - `npm run dev` (5173) · `npm run build` · `npm run preview` (4173) · `npm run lint` · `npm run typecheck`
