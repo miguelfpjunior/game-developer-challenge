@@ -14,3 +14,9 @@ dist/
 
 # Logs
 *.log
+
+# Test output
+test-results/
+playwright-report/
+playwright/.cache/
+node_modules/.tmp/
